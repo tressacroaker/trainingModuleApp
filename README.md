@@ -71,6 +71,8 @@ ReactDOM.render(
 
 * As soon as you come up with a topic for your training module, you can start setting up the module page by page. You will use simple React components and render simple HTML in each.
 
+* If your app file become too cumbersome with all of the components, feel free to create new files for them. If you do this, you need to do two things. Don't forget to include the script tag in your index file calling in your component file. Also, in the script tag that has all of the React variables, add your component variables, so that they are global variables.
+
 ###Final Touches
 
 * If you have done everything correctly, you should have a fairly crude rendering of each page of the training module. Hopefully, you have set it up so that there is a natural flow of learning. That also means that you should have a Link tag on each page to redirect to the next step. If this is the case, go ahead and add some styles. You should now have the ability to teach anyone anything.

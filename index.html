@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>How To App</title>
+    <script src="https://unpkg.com/react@15.3.1/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.1/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-router/2.7.0/ReactRouter.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans|Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div id="content"></div>
+
+    <script>
+      var ReactRouter = window.ReactRouter;
+      var Router = ReactRouter.Router;
+      var Route = ReactRouter.Route;
+      var IndexRoute = ReactRouter.IndexRoute;
+      var Link = ReactRouter.Link;
+      var browserHistory = ReactRouter.browserHistory;
+      var Home, Main, Done, Step1, Step2, Step3, Step4, Step5, Step6, Step7;
+    </script>
+    <script src="components/Step1.js" type="text/babel"></script>
+    <script src="components/Step2.js" type="text/babel"></script>
+    <script src="components/Step3.js" type="text/babel"></script>
+    <script src="components/Step4.js" type="text/babel"></script>
+    <script src="components/Step5.js" type="text/babel"></script>
+    <script src="components/Step6.js" type="text/babel"></script>
+    <script src="components/Step7.js" type="text/babel"></script>
+    <script src="components/Done.js" type="text/babel"></script>
+    <script src="components/Home.js" type="text/babel"></script>
+    <script src="components/Main.js" type="text/babel"></script>
+    <script src="routes.js" type="text/babel"></script>
+  </body>
+</html>
